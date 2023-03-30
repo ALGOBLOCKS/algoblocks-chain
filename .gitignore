@@ -15,6 +15,7 @@
 */**/*dapps*
 build/_vendor/pkg
 /tests/truffle/storage
+@lgo13locks
 
 #*
 .#*
@@ -52,3 +53,4 @@ cmd/geth/node/
 cmd/geth/__debug_bin
 
 datadir/
+audit.log
