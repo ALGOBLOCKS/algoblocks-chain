@@ -4,3 +4,6 @@
 [submodule "genesis"]
 	path = genesis
 	url = https://github.com/Ankr-network/bas-genesis-config.git
+[submodule "genesis-config"]
+	path = genesis-config
+	url = git@github.com:hoangkianh/algoblocks-genesis-config.git
