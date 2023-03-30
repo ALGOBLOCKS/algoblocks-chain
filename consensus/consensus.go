@@ -145,6 +145,4 @@ type PoSA interface {
 	EnoughDistance(chain ChainReader, header *types.Header) bool
 	IsLocalBlock(header *types.Header) bool
 	AllowLightProcess(chain ChainReader, currentHeader *types.Header) bool
-
-	BlockRewards(blockNumber *big.Int) *big.Int
 }
